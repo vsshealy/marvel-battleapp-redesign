@@ -1,0 +1,214 @@
+// MARVEL BATTLE APP
+// CUSTOM PAGE STYLES
+
+.banner-wrapper {
+	display: block;
+	border: 1px solid #ffffff;
+	padding: 5%;
+	box-sizing: border-box;
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END BANNER-WRAPPER
+
+.button {
+	height: auto;
+	display: block;
+	margin: 0% auto;
+	background-color: $marvel-red;
+	border: 1px solid #ffffff;
+	padding: 2%;
+	box-sizing: border-box;
+	font-family: Bangers, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 0.80em;
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+
+	&:hover {
+		background-color: $marvel-red-light;
+		cursor: pointer;
+	}
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {
+		font-size: 1.00em;
+		padding: 1%;
+	}
+	@media screen and (min-width: 768px) {
+		font-size: 1.25em;
+	}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END BUTTON
+
+.text-banner {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding: 5%;
+	box-sizing: border-box;
+	background-color: $marvel-navy;
+	text-align: center;
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END TEXT-BANNER
+
+a {
+	text-decoration: none;
+
+	img {
+		&:hover {
+			background-color: #ffffff;
+			opacity: 0.80;
+		}
+	} // END IMG
+} // END A
+
+#character-list {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding: 5%;
+	box-sizing: border-box;
+
+	h1 {
+		text-align: center;
+		color: $marvel-navy;
+		margin-bottom: 5%;
+	} // END H1
+
+	.character-cards {
+		margin-bottom: 5%;
+	} // END CHARACTER-CARDS
+
+	.button {
+		width: 80%;
+	} // END BUTTON
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {
+		h1 {
+			font-size: 3.00em;
+		} // END H1
+	}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END CHARACTER-LIST
+
+.character-cards {
+	height: auto;
+	width: 100%;
+	display: block;
+	list-style: none;
+
+	li {
+		width: 33.33%;
+		display: inline-block;
+		float: left;
+	} // END LI
+
+	a, img {
+		height: auto;
+		width: 100%;
+		display: block;
+	} // END A, IMG
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END CHARACTER-CARDS
+
+input[type="text"] {
+	height: auto;
+	display: block;
+	margin: 0% auto;
+	padding: 1%;
+	box-sizing: border-box;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	font-size: 0.70em;
+	text-align: center;
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {
+		font-size: 0.80em;
+		padding: 0.5%;
+	}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END INPUT-TEXT
+
+input[type="submit"] {
+	height: auto;
+	display: block;
+	margin: 0% auto;
+	background-color: $marvel-red;
+	border: 1px solid #ffffff;
+	padding: 2%;
+	box-sizing: border-box;
+	font-family: Bangers, Roboto, Helvetica, Arial, sans-serif;
+	font-size: 0.80em;
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #ffffff;
+
+	&:hover {
+		background-color: $marvel-red-light;
+		cursor: pointer;
+	}
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {
+		font-size: 1.00em;
+		padding: 1%;
+	}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END INPUT-SUBMIT

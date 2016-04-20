@@ -1,0 +1,465 @@
+// MARVEL BATTLE APP
+// BATTLE SCENE STYLES
+
+// GLOBAL STYLES
+#battle-banner {
+	height: auto;
+	width: 100%;
+	display: block;
+	padding-top: 20%;
+	text-align: center;
+
+	.banner-wrapper {} // END BANNER-WRAPPER
+
+	h1 {
+		font-size: 2.50em;
+		color: $marvel-navy;
+		margin-bottom: 0%;
+	} // END H1
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {
+		.banner-wrapper {
+			width: 100%;
+		} // END BANNER-WRAPPER
+	}
+	@media screen and (min-width: 700px) {
+		padding-top: 15%;
+
+		h1 {
+			font-size: 4.00em;
+		} // END H1
+	}
+	@media screen and (min-width: 768px) {
+		padding-top: 12%
+	}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {
+		padding-top: 10%;
+	}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+} // END BATTLE-BANNER
+
+#battle-scene {
+	height: auto;
+	width: 100%;
+	display: block;
+
+	@media screen and (min-width: 320px) {}
+	@media screen and (min-width: 375px) {}
+	@media screen and (min-width: 425px) {}
+	@media screen and (min-width: 500px) {}
+	@media screen and (min-width: 700px) {}
+	@media screen and (min-width: 768px) {}
+	@media screen and (min-width: 900px) {}
+	@media screen and (min-width: 1024px) {}
+	@media screen and (min-width: 1200px) {}
+	@media screen and (min-width: 1440px) {}
+
+	#player-panel {
+		height: auto;
+		width: 100%;
+		display: block;
+		background-color: $marvel-navy;
+		border-top: 4px solid $marvel-red;
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END PLAYER-PANEL
+
+	.player-card {
+		height: auto;
+		width: 50%;
+		display: inline-block;
+		position: relative;
+		float: left;
+
+		&:first-child {
+		} // END PLAYER-1
+		&:last-child {
+		} // END PLAYER-2
+
+		.favorite-icon {
+			font-size: 2.00em;
+			color: $marvel-navy;
+			position: absolute;
+			top: 1%;
+			left: 5%;
+			opacity: 0.50;
+		} // END FAVORITE-ICON
+
+		.player-card-image {
+			height: auto;
+			width: 100%;
+			display: block;
+
+			img {
+				height: auto;
+				width: 100%;
+				display: block;
+			} // END IMG
+		} // END PLAYER-CARD-IMAGE
+
+		.player-tag {
+			height: auto;
+			width: 100%;
+			padding: 5%;
+			box-sizing: border-box;
+
+			h2 {
+				font-size: 1.25em;
+				color: #ffffff;
+				text-align: center;
+				margin: 0%;
+			} // END H2
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {}
+			@media screen and (min-width: 768px) {
+				h2 {
+					font-size: 1.75em;
+				}
+			}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END PLAYER-TAG
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END PLAYER-CARD
+
+	#fight-bar {
+		height: auto;
+		width: 100%;
+		background-color: $marvel-red-dark;
+		padding: 2%;
+		box-sizing: border-box;
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {
+			padding: 3%;
+		}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END FIGHT-BAR
+
+	#player-selection-controller {
+		height: auto;
+		width: 100%;
+		display: block;
+		background-color: $marvel-blue;
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+
+		.player-selection {
+			height: auto;
+			width: 50%;
+			display: inline-block;
+			padding: 3%;
+			box-sizing: border-box;
+			float: left;
+
+			&:first-child {
+				background-color: $marvel-blue;
+			} // END FIRST-CHILD
+
+			&:last-child {
+				background-color: $marvel-blue-dark;
+			} // END LAST-CHILD
+
+			h4 {
+				font-family: Roboto, Helvetica, Arial, sans-serif;
+				font-weight: 100;
+				text-align: center;
+				letter-spacing: normal;
+				color: #ffffff;
+				margin-bottom: 10%;
+
+				@media screen and (min-width: 320px) {}
+				@media screen and (min-width: 375px) {}
+				@media screen and (min-width: 425px) {}
+				@media screen and (min-width: 500px) {}
+				@media screen and (min-width: 700px) {
+					font-size: 1.50em;
+				}
+				@media screen and (min-width: 768px) {}
+				@media screen and (min-width: 900px) {}
+				@media screen and (min-width: 1024px) {}
+				@media screen and (min-width: 1200px) {}
+				@media screen and (min-width: 1440px) {}
+			} // END H4
+
+			input[type="text"] {
+				margin-bottom: 6%;
+			} // END INPUT-TEXT
+
+			input[type="submit"] {
+				width: 60%;
+				margin-bottom: 3%;
+			} // END INPUT-SUBMIT
+
+		} // END PLAYER-SELECTION
+	} // END PLAYER-SELECTION-CONTROLLER
+
+	#battle-comparison {
+		height: auto;
+		width: 100%;
+		display: block;
+		padding: 5%;
+		box-sizing: border-box;
+
+		h2 {
+			font-size: 2.00em;
+			text-align: center;
+			color: $marvel-navy;
+			margin-bottom: 0%;
+		} // END H2
+
+		img {
+			height: auto;
+			width: 100%;
+			display: block;
+		} // END IMG
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {
+			h2 {
+				font-size: 3.50em;
+			} // END H2
+		}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END BATTLE-COMPARISON
+} // END BATTLE-SCENE
+
+// PAGE STYLES
+#battle-select {} // END BATTLE-SELECT
+
+#battle-view {
+	#fight-bar {
+		h3 {
+			font-size: 1.50em;
+			text-align: center;
+			color: #ffffff;
+			padding: 5% 0%;
+			margin-bottom: 0%;
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {
+				font-size: 2.00em;
+				padding: 3% 0%;
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END H3
+
+		.button {
+			margin-bottom: 2%;
+
+			&:last-child {
+				margin-bottom: 0%;
+			} // END LAST-CHILD
+		} // END BUTTON
+	} // END FIGHT-BAR
+} // END BATTLE-VIEW
+
+#battle-results {
+	#player-panel {
+		.winner-banner {
+			height: auto;
+			width: 100%;
+			display: block;
+
+			img {
+				height: auto;
+				width: 100%;
+				display: block;
+			} // END IMG
+		} // END WINNER-BANNER
+
+		.player-tag {
+			height: auto;
+			width: 50%;
+			display: inline-block;
+			padding: 5%;
+			box-sizing: border-box;
+			float: left;
+
+			h2 {
+				font-size: 1.25em;
+				color: #ffffff;
+				text-align: center;
+				margin: 0%;
+			} // END H2
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {}
+			@media screen and (min-width: 768px) {
+				font-size: 1.75em;
+			}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END PLAYER-TAG
+	} // END PLAYER-PANEL
+
+	#fight-bar {
+		.button {
+			margin-bottom: 2%;
+
+			&:last-child {
+				margin-bottom: 0%;
+			} // END LAST-CHILD
+		} // END BUTTON
+	} // END FIGHT-BAR
+
+	#battle-log {
+		height: auto;
+		width: 100%;
+		padding: 5%;
+		box-sizing: border-box;
+
+		h2 {
+			font-size: 2.00em;
+			color: $marvel-navy;
+			text-align: center;
+			margin-bottom: 5%;
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {
+				font-size: 3.00em;
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END H2
+
+		#battle-details {
+			height: auto;
+			width: 100%;
+			display: block;
+			list-style: none;
+
+			li {
+				height: auto;
+				width: 100%;
+				display: block;
+				background-color: $marvel-blue;
+				border: 1px solid $marvel-navy;
+				padding: 2%;
+				box-sizing: border-box;
+				margin-bottom: 2%;
+
+				&:last-child {
+					background-color: $marvel-red;
+					border: 1px solid $marvel-red-dark;
+					font-size: 2.00em;
+				} // END LAST-CHILD
+
+				img {
+					height: auto;
+					width: 15%;
+					display: inline-block;
+					float: left;
+				} // END IMG
+
+				i {
+					font-size: 2.00em;
+					color: $marvel-red-dark;
+					float: left;
+				} // END I
+
+				h5 {
+					height: auto;
+					width: 85%;
+					display: inline-block;
+					float: left;
+					padding: 0% 4%;
+					box-sizing: border-box;
+					font-family: Roboto, Helvetica, Arial, sans-serif;
+					font-size: 0.80em;
+					font-weight: 300;
+					line-height: 1.20;
+					color: #ffffff;
+					letter-spacing: normal;
+					margin-bottom: 0%;
+				} // END H5
+
+				@media screen and (min-width: 320px) {}
+				@media screen and (min-width: 375px) {}
+				@media screen and (min-width: 425px) {}
+				@media screen and (min-width: 500px) {}
+				@media screen and (min-width: 700px) {
+					h5 {
+						font-size: 1.00em;
+					} // END H5
+				}
+				@media screen and (min-width: 768px) {}
+				@media screen and (min-width: 900px) {}
+				@media screen and (min-width: 1024px) {}
+				@media screen and (min-width: 1200px) {}
+				@media screen and (min-width: 1440px) {}
+			} // END LI
+		} // END BATTLE-DETAILS
+	} // END BATTLE-LOG	
+} // END BATTLE-RESULTS

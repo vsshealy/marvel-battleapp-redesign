@@ -1,0 +1,89 @@
+// MARVEL BATTLE APP
+// CHARACTER SEARCH PAGE STYLES
+
+#character-search {
+	#search-banner {
+		padding-top: 20%;
+
+		img {
+			height: auto;
+			width: 100%;
+			display: block;
+		} // END IMG
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {
+			padding-top: 12%;
+		}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END SEARCH-BANNER
+
+	.text-banner {
+		position: relative;
+		margin-top: -5%;
+		padding: 5%;
+		box-sizing: border-box;
+
+		h2 {
+			color: #ffffff;
+			margin-bottom: 0%;
+		} // END H2
+
+		h4 {
+			color: #ffffff;
+			margin-bottom: 4%;
+		} // END H4
+
+		input[type="text"] {
+			width: 80%;
+			margin-bottom: 2%;
+		} // END INPUT-TEXT
+
+		input[type="submit"] {
+			width: 40%;
+		} // END INPUT-SUBMIT
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {
+			h2 {
+				font-size: 2.50em;
+			} // END H2
+
+			h4 {
+				font-size: 1.75em;
+			} // END H4
+
+			input[type="text"] {} // END INPUT-TEXT
+
+			input[type="submit"] {} // END TYPE-SUBMIT
+		}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END TEXT-BANNER
+
+	#character-list {
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END CHARACTER-LIST
+} // END CHARACTER-SEARCH

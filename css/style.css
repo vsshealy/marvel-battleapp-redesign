@@ -1,0 +1,922 @@
+* {
+  margin: 0%;
+  padding: 0%; }
+
+html, body, .content-wrapper {
+  height: auto;
+  width: 100%; }
+
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    content: "";
+    display: table; }
+  .clearfix:after {
+    clear: both; }
+
+.clear {
+  clear: both; }
+
+.grid-1 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-1 {
+      width: 50.00%; } }
+  @media screen and (min-width: 768px) {
+    .grid-1 {
+      width: 25.00%; } }
+  @media screen and (min-width: 1024px) {
+    .grid-1 {
+      width: 8.33%; } }
+
+.grid-2 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-2 {
+      width: 50.00%; } }
+  @media screen and (min-width: 768px) {
+    .grid-2 {
+      width: 25.00%; } }
+  @media screen and (min-width: 1024px) {
+    .grid-2 {
+      width: 16.66%; } }
+
+.grid-3 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-3 {
+      width: 50.00%; } }
+  @media screen and (min-width: 768px) {
+    .grid-3 {
+      width: 25.00%; } }
+
+.grid-4 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-4 {
+      width: 50.00%; } }
+  @media screen and (min-width: 768px) {
+    .grid-4 {
+      width: 33.33%; } }
+
+.grid-5 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-5 {
+      width: 50.00%; } }
+  @media screen and (min-width: 1024px) {
+    .grid-5 {
+      width: 41.66%; } }
+
+.grid-6 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-6 {
+      width: 50%; } }
+
+.grid-7 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-7 {
+      width: 50.00%; } }
+  @media screen and (min-width: 1024px) {
+    .grid-7 {
+      width: 58.33%; } }
+
+.grid-8 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-8 {
+      width: 50.00%; } }
+  @media screen and (min-width: 768px) {
+    .grid-8 {
+      width: 66.66%; } }
+
+.grid-9 {
+  width: 100.00%; }
+  @media screen and (min-width: 500px) {
+    .grid-9 {
+      width: 50.00%; } }
+  @media screen and (min-width: 768px) {
+    .grid-9 {
+      width: 75.00%; } }
+
+.grid-10 {
+  width: 100.00%; }
+  @media screen and (min-width: 1024px) {
+    .grid-10 {
+      width: 83.33%; } }
+
+.grid-11 {
+  width: 100.00%; }
+  @media screen and (min-width: 1024px) {
+    .grid-11 {
+      width: 91.66%; } }
+
+.grid-12 {
+  width: 100.00%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Bangers, Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.10;
+  letter-spacing: 1.00px;
+  margin-bottom: 10%; }
+
+h1 {
+  font-size: 1.75em; }
+
+h2 {
+  font-size: 1.50em; }
+
+p {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.70em;
+  font-weight: 300;
+  line-height: 1.50;
+  margin-bottom: 8%; }
+
+.banner-wrapper {
+  display: block;
+  border: 1px solid #ffffff;
+  padding: 5%;
+  box-sizing: border-box; }
+
+.button {
+  height: auto;
+  display: block;
+  margin: 0% auto;
+  background-color: #ed1b24;
+  border: 1px solid #ffffff;
+  padding: 2%;
+  box-sizing: border-box;
+  font-family: Bangers, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.80em;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff; }
+  .button:hover {
+    background-color: #f14950;
+    cursor: pointer; }
+  @media screen and (min-width: 700px) {
+    .button {
+      font-size: 1.00em;
+      padding: 1%; } }
+  @media screen and (min-width: 768px) {
+    .button {
+      font-size: 1.25em; } }
+
+.text-banner {
+  height: auto;
+  width: 100%;
+  display: block;
+  padding: 5%;
+  box-sizing: border-box;
+  background-color: #0a122a;
+  text-align: center; }
+
+a {
+  text-decoration: none; }
+  a img:hover {
+    background-color: #ffffff;
+    opacity: 0.80; }
+
+#character-list {
+  height: auto;
+  width: 100%;
+  display: block;
+  padding: 5%;
+  box-sizing: border-box; }
+  #character-list h1 {
+    text-align: center;
+    color: #0a122a;
+    margin-bottom: 5%; }
+  #character-list .character-cards {
+    margin-bottom: 5%; }
+  #character-list .button {
+    width: 80%; }
+  @media screen and (min-width: 700px) {
+    #character-list h1 {
+      font-size: 3.00em; } }
+
+.character-cards {
+  height: auto;
+  width: 100%;
+  display: block;
+  list-style: none; }
+  .character-cards li {
+    width: 33.33%;
+    display: inline-block;
+    float: left; }
+  .character-cards a, .character-cards img {
+    height: auto;
+    width: 100%;
+    display: block; }
+
+input[type="text"] {
+  height: auto;
+  display: block;
+  margin: 0% auto;
+  padding: 1%;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.70em;
+  text-align: center; }
+  @media screen and (min-width: 700px) {
+    input[type="text"] {
+      font-size: 0.80em;
+      padding: 0.5%; } }
+
+input[type="submit"] {
+  height: auto;
+  display: block;
+  margin: 0% auto;
+  background-color: #ed1b24;
+  border: 1px solid #ffffff;
+  padding: 2%;
+  box-sizing: border-box;
+  font-family: Bangers, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.80em;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #ffffff; }
+  input[type="submit"]:hover {
+    background-color: #f14950;
+    cursor: pointer; }
+  @media screen and (min-width: 700px) {
+    input[type="submit"] {
+      font-size: 1.00em;
+      padding: 1%; } }
+
+#header-primary {
+  height: auto;
+  width: 100%;
+  display: block;
+  padding: 2%;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: #0a122a;
+  border-bottom: 1px solid #ffffff;
+  z-index: 100; }
+  #header-primary #header-logo {
+    height: auto;
+    width: 25%;
+    display: inline-block;
+    float: left; }
+    #header-primary #header-logo a, #header-primary #header-logo img {
+      height: auto;
+      width: 100%;
+      display: block; }
+    @media screen and (min-width: 375px) {
+      #header-primary #header-logo {
+        width: 20%; } }
+    @media screen and (min-width: 500px) {
+      #header-primary #header-logo {
+        width: 15%; } }
+    @media screen and (min-width: 700px) {
+      #header-primary #header-logo {
+        width: 12%; } }
+    @media screen and (min-width: 900px) {
+      #header-primary #header-logo {
+        width: 10%; } }
+    @media screen and (min-width: 1440px) {
+      #header-primary #header-logo {
+        width: 8%; } }
+  #header-primary #start-button {
+    height: auto;
+    width: 75%;
+    display: inline-block;
+    padding: 3%;
+    box-sizing: border-box;
+    float: left; }
+    #header-primary #start-button .button {
+      width: 60%;
+      float: right; }
+    @media screen and (min-width: 375px) {
+      #header-primary #start-button {
+        width: 80%; } }
+    @media screen and (min-width: 500px) {
+      #header-primary #start-button {
+        width: 85%;
+        padding: 1%; }
+        #header-primary #start-button .button {
+          width: 50%;
+          padding: 1%;
+          transform: translateY(20%); } }
+    @media screen and (min-width: 700px) {
+      #header-primary #start-button {
+        width: 88%; }
+        #header-primary #start-button .button {
+          width: 40%; } }
+    @media screen and (min-width: 900px) {
+      #header-primary #start-button {
+        width: 90%; }
+        #header-primary #start-button .button {
+          width: 30%;
+          transform: translateY(10%); } }
+    @media screen and (min-width: 1440px) {
+      #header-primary #start-button {
+        width: 92%; } }
+
+#header-primary2 {
+  height: auto;
+  width: 100%;
+  display: block;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  background-color: #3a405a;
+  border-bottom: 2px solid #ffffff; }
+  #header-primary2 #header-logo {
+    height: auto;
+    width: 25%;
+    display: inline-block;
+    float: left; }
+    #header-primary2 #header-logo a, #header-primary2 #header-logo img {
+      height: auto;
+      width: 100%;
+      display: block; }
+    @media screen and (min-width: 500px) {
+      #header-primary2 #header-logo {
+        width: 15%; } }
+    @media screen and (min-width: 1024px) {
+      #header-primary2 #header-logo {
+        width: 10%; } }
+  #header-primary2 #start-button {
+    height: 100%;
+    width: 75%;
+    display: inline;
+    float: left;
+    position: relative; }
+    #header-primary2 #start-button .button {
+      height: auto;
+      width: 80%;
+      display: block;
+      margin: 0% auto;
+      position: relative;
+      top: 50%;
+      transform: translateY(40%); }
+    @media screen and (min-width: 425px) {
+      #header-primary2 #start-button .button {
+        transform: translateY(50%); } }
+    @media screen and (min-width: 500px) {
+      #header-primary2 #start-button {
+        width: 85%; }
+        #header-primary2 #start-button .button {
+          transform: translateY(20%); } }
+    @media screen and (min-width: 700px) {
+      #header-primary2 #start-button .button {
+        transform: translateY(25%); } }
+    @media screen and (min-width: 900px) {
+      #header-primary2 #start-button .button {
+        transform: translateY(35%); } }
+    @media screen and (min-width: 1024px) {
+      #header-primary2 #start-button .button {
+        width: 20%;
+        padding: 1%;
+        float: right;
+        transform: translateY(40%); } }
+    @media screen and (min-width: 1200px) {
+      #header-primary2 #start-button .button {
+        font-size: 1.25em;
+        transform: translateY(45%); } }
+
+#footer-primary {
+  height: auto;
+  width: 100%;
+  background-color: #0a122a;
+  display: block;
+  position: relative;
+  bottom: 0%;
+  left: 0%;
+  padding: 5%;
+  box-sizing: border-box; }
+  #footer-primary h6 {
+    font-size: 1.00em;
+    text-align: center;
+    color: #ffffff;
+    margin: 0%; }
+  #footer-primary p {
+    font-size: 0.60em;
+    text-align: center;
+    color: #ffffff;
+    margin: 0%; }
+  @media screen and (min-width: 700px) {
+    #footer-primary h6 {
+      font-size: 1.25em; }
+    #footer-primary p {
+      font-size: 0.80em; } }
+  @media screen and (min-width: 1024px) {
+    #footer-primary h6 {
+      font-size: 1.50em; }
+    #footer-primary p {
+      font-size: 1.00em; } }
+
+#dashboard #home-banner {
+  height: auto;
+  width: 100%;
+  display: block;
+  background-image: url("../img/banners/home-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 10%;
+  padding-top: 25%;
+  box-sizing: border-box; }
+  @media screen and (min-width: 700px) {
+    #dashboard #home-banner {
+      padding-top: 20%; } }
+  #dashboard #home-banner .banner-wrapper h2 {
+    text-align: center;
+    color: #ffffff; }
+  #dashboard #home-banner .banner-wrapper p {
+    text-align: center;
+    color: #ffffff; }
+  @media screen and (min-width: 500px) {
+    #dashboard #home-banner .banner-wrapper {
+      width: 66.66%;
+      margin: 0% auto; } }
+  @media screen and (min-width: 700px) {
+    #dashboard #home-banner .banner-wrapper h2 {
+      font-size: 1.75em; }
+    #dashboard #home-banner .banner-wrapper p {
+      font-size: 0.90em; } }
+  @media screen and (min-width: 1024px) {
+    #dashboard #home-banner .banner-wrapper h2 {
+      font-size: 2.50em; }
+    #dashboard #home-banner .banner-wrapper p {
+      font-size: 1.00em; }
+    #dashboard #home-banner .banner-wrapper .button {
+      font-size: 1.25em; } }
+  @media screen and (min-width: 1200px) {
+    #dashboard #home-banner .banner-wrapper h2 {
+      font-size: 3.50em; }
+    #dashboard #home-banner .banner-wrapper p {
+      font-size: 1.50em; }
+    #dashboard #home-banner .banner-wrapper .button {
+      font-size: 1.50em; } }
+#dashboard .text-banner h1 {
+  color: #ffffff;
+  margin-bottom: 0%; }
+  #dashboard .text-banner h1:first-child {
+    font-size: 1.25em; }
+  #dashboard .text-banner h1:last-child {
+    font-size: 3.00em; }
+@media screen and (min-width: 500px) {
+  #dashboard .text-banner {
+    padding: 2%; } }
+@media screen and (min-width: 768px) {
+  #dashboard .text-banner h1:first-child {
+    font-size: 2.50em; }
+  #dashboard .text-banner h1:last-child {
+    font-size: 5.00em; } }
+#dashboard #character-list {
+  height: auto;
+  width: 100%;
+  display: block;
+  padding: 0%; }
+  #dashboard #character-list .character-cards {
+    height: auto;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 0%; }
+    #dashboard #character-list .character-cards li {
+      display: block; }
+    #dashboard #character-list .character-cards a, #dashboard #character-list .character-cards img {
+      height: auto;
+      width: 100%;
+      display: block; }
+    @media screen and (min-width: 500px) {
+      #dashboard #character-list .character-cards li {
+        width: 33.33%;
+        display: inline-block;
+        float: left; } }
+  @media screen and (min-width: 1024px) {
+    #dashboard #character-list .text-banner {
+      padding: 3%;
+      box-sizing: border-box; } }
+  @media screen and (min-width: 500px) {
+    #dashboard #character-list .button {
+      width: 80%;
+      margin: 0% auto;
+      padding: 2%; } }
+  @media screen and (min-width: 700px) {
+    #dashboard #character-list .button {
+      padding: 1%; } }
+  @media screen and (min-width: 1024px) {
+    #dashboard #character-list .button {
+      width: 66.66%; } }
+#dashboard #user-history {
+  background-color: #3a405a; }
+  #dashboard #user-history #recent-battles {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0% auto;
+    padding-bottom: 5%;
+    border-top: 1px solid #ffffff; }
+    @media screen and (min-width: 700px) {
+      #dashboard #user-history #recent-battles {
+        width: 50%;
+        display: inline-block;
+        float: left; } }
+    #dashboard #user-history #recent-battles .battle-row {
+      height: auto;
+      width: 90%;
+      display: block;
+      margin: 0% auto;
+      list-style: none; }
+      #dashboard #user-history #recent-battles .battle-row li {
+        height: auto;
+        width: 50%;
+        display: inline-block;
+        margin-bottom: 4%;
+        float: left; }
+      #dashboard #user-history #recent-battles .battle-row a, #dashboard #user-history #recent-battles .battle-row img {
+        height: auto;
+        width: 100%;
+        display: block; }
+      #dashboard #user-history #recent-battles .battle-row .winner1 {
+        border: 1px solid #ed1b24;
+        box-sizing: border-box; }
+  #dashboard #user-history #recent-searches {
+    height: auto;
+    width: 100%;
+    display: block;
+    margin: 0% auto;
+    padding-bottom: 5%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff; }
+    @media screen and (min-width: 700px) {
+      #dashboard #user-history #recent-searches {
+        width: 50%;
+        display: inline-block;
+        float: left; } }
+    #dashboard #user-history #recent-searches .character-cards {
+      width: 90%;
+      margin: 0% auto;
+      display: block; }
+      @media screen and (min-width: 700px) {
+        #dashboard #user-history #recent-searches .character-cards {
+          padding-top: 2%; } }
+      @media screen and (min-width: 1024px) {
+        #dashboard #user-history #recent-searches .character-cards {
+          padding-top: 8%; } }
+    #dashboard #user-history #recent-searches li {
+      height: auto;
+      width: 50%;
+      display: inline-block;
+      float: left; }
+    #dashboard #user-history #recent-searches a, #dashboard #user-history #recent-searches img {
+      height: auto;
+      width: 100%;
+      display: block; }
+  #dashboard #user-history .section-header {
+    height: auto;
+    width: 100%;
+    display: block;
+    background-color: #3a405a;
+    padding: 4%;
+    box-sizing: border-box; }
+    #dashboard #user-history .section-header h1 {
+      font-size: 2.00em;
+      color: #ffffff;
+      text-align: center;
+      margin: 0%; }
+    #dashboard #user-history .section-header p {
+      height: auto;
+      width: 50%;
+      display: inline-block;
+      float: left;
+      font-size: 0.90em;
+      color: #ffffff;
+      text-align: center;
+      margin: 0%; }
+    @media screen and (min-width: 1024px) {
+      #dashboard #user-history .section-header p {
+        margin: 4% 0%; } }
+    @media screen and (min-width: 1200px) {
+      #dashboard #user-history .section-header h1 {
+        font-size: 3.00em; }
+      #dashboard #user-history .section-header p {
+        font-size: 1.50em; } }
+
+#character-search #search-banner {
+  padding-top: 20%; }
+  #character-search #search-banner img {
+    height: auto;
+    width: 100%;
+    display: block; }
+  @media screen and (min-width: 768px) {
+    #character-search #search-banner {
+      padding-top: 12%; } }
+#character-search .text-banner {
+  position: relative;
+  margin-top: -5%;
+  padding: 5%;
+  box-sizing: border-box; }
+  #character-search .text-banner h2 {
+    color: #ffffff;
+    margin-bottom: 0%; }
+  #character-search .text-banner h4 {
+    color: #ffffff;
+    margin-bottom: 4%; }
+  #character-search .text-banner input[type="text"] {
+    width: 80%;
+    margin-bottom: 2%; }
+  #character-search .text-banner input[type="submit"] {
+    width: 40%; }
+  @media screen and (min-width: 700px) {
+    #character-search .text-banner h2 {
+      font-size: 2.50em; }
+    #character-search .text-banner h4 {
+      font-size: 1.75em; } }
+
+#character-detail #character-info {
+  height: auto;
+  width: 100%;
+  display: block;
+  background-image: url("../img/characters/ironman-landscape.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 5%;
+  padding-top: 25%;
+  box-sizing: border-box; }
+  @media screen and (min-width: 700px) {
+    #character-detail #character-info {
+      padding-top: 18%; } }
+  #character-detail #character-info #character-description {
+    height: auto;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); }
+    #character-detail #character-info #character-description h1 {
+      font-size: 2.50em;
+      margin-bottom: 5%;
+      color: #0a122a; }
+    #character-detail #character-info #character-description .button {
+      height: auto;
+      width: 50%;
+      margin: 0%;
+      margin-bottom: 10%; }
+    @media screen and (min-width: 700px) {
+      #character-detail #character-info #character-description p {
+        font-size: 0.80em; } }
+  #character-detail #character-info #character-summary {
+    height: auto;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: #ed1b24; }
+    #character-detail #character-info #character-summary .ultimate-score h1 {
+      font-size: 2.50em;
+      color: #ffffff;
+      margin-bottom: 0%;
+      text-align: center; }
+    #character-detail #character-info #character-summary .ultimate-score h4 {
+      font-size: 1.50em;
+      color: #ffffff;
+      margin-bottom: 0%;
+      text-align: center; }
+    @media screen and (min-width: 700px) {
+      #character-detail #character-info #character-summary {
+        padding: 2%; } }
+    @media screen and (min-width: 768px) {
+      #character-detail #character-info #character-summary {
+        width: 66.66%; } }
+#character-detail #character-list {
+  height: auto;
+  display: block; }
+  #character-detail #character-list h1 {
+    text-align: center; }
+
+#battle-banner {
+  height: auto;
+  width: 100%;
+  display: block;
+  padding-top: 20%;
+  text-align: center; }
+  #battle-banner h1 {
+    font-size: 2.50em;
+    color: #0a122a;
+    margin-bottom: 0%; }
+  @media screen and (min-width: 500px) {
+    #battle-banner .banner-wrapper {
+      width: 100%; } }
+  @media screen and (min-width: 700px) {
+    #battle-banner {
+      padding-top: 15%; }
+      #battle-banner h1 {
+        font-size: 4.00em; } }
+  @media screen and (min-width: 768px) {
+    #battle-banner {
+      padding-top: 12%; } }
+  @media screen and (min-width: 1024px) {
+    #battle-banner {
+      padding-top: 10%; } }
+
+#battle-scene {
+  height: auto;
+  width: 100%;
+  display: block; }
+  #battle-scene #player-panel {
+    height: auto;
+    width: 100%;
+    display: block;
+    background-color: #0a122a;
+    border-top: 4px solid #ed1b24; }
+  #battle-scene .player-card {
+    height: auto;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+    float: left; }
+    #battle-scene .player-card .favorite-icon {
+      font-size: 2.00em;
+      color: #0a122a;
+      position: absolute;
+      top: 1%;
+      left: 5%;
+      opacity: 0.50; }
+    #battle-scene .player-card .player-card-image {
+      height: auto;
+      width: 100%;
+      display: block; }
+      #battle-scene .player-card .player-card-image img {
+        height: auto;
+        width: 100%;
+        display: block; }
+    #battle-scene .player-card .player-tag {
+      height: auto;
+      width: 100%;
+      padding: 5%;
+      box-sizing: border-box; }
+      #battle-scene .player-card .player-tag h2 {
+        font-size: 1.25em;
+        color: #ffffff;
+        text-align: center;
+        margin: 0%; }
+      @media screen and (min-width: 768px) {
+        #battle-scene .player-card .player-tag h2 {
+          font-size: 1.75em; } }
+  #battle-scene #fight-bar {
+    height: auto;
+    width: 100%;
+    background-color: #be161d;
+    padding: 2%;
+    box-sizing: border-box; }
+    @media screen and (min-width: 768px) {
+      #battle-scene #fight-bar {
+        padding: 3%; } }
+  #battle-scene #player-selection-controller {
+    height: auto;
+    width: 100%;
+    display: block;
+    background-color: #3a405a; }
+    #battle-scene #player-selection-controller .player-selection {
+      height: auto;
+      width: 50%;
+      display: inline-block;
+      padding: 3%;
+      box-sizing: border-box;
+      float: left; }
+      #battle-scene #player-selection-controller .player-selection:first-child {
+        background-color: #3a405a; }
+      #battle-scene #player-selection-controller .player-selection:last-child {
+        background-color: #2e3348; }
+      #battle-scene #player-selection-controller .player-selection h4 {
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-weight: 100;
+        text-align: center;
+        letter-spacing: normal;
+        color: #ffffff;
+        margin-bottom: 10%; }
+        @media screen and (min-width: 700px) {
+          #battle-scene #player-selection-controller .player-selection h4 {
+            font-size: 1.50em; } }
+      #battle-scene #player-selection-controller .player-selection input[type="text"] {
+        margin-bottom: 6%; }
+      #battle-scene #player-selection-controller .player-selection input[type="submit"] {
+        width: 60%;
+        margin-bottom: 3%; }
+  #battle-scene #battle-comparison {
+    height: auto;
+    width: 100%;
+    display: block;
+    padding: 5%;
+    box-sizing: border-box; }
+    #battle-scene #battle-comparison h2 {
+      font-size: 2.00em;
+      text-align: center;
+      color: #0a122a;
+      margin-bottom: 0%; }
+    #battle-scene #battle-comparison img {
+      height: auto;
+      width: 100%;
+      display: block; }
+    @media screen and (min-width: 768px) {
+      #battle-scene #battle-comparison h2 {
+        font-size: 3.50em; } }
+
+#battle-view #fight-bar h3 {
+  font-size: 1.50em;
+  text-align: center;
+  color: #ffffff;
+  padding: 5% 0%;
+  margin-bottom: 0%; }
+  @media screen and (min-width: 700px) {
+    #battle-view #fight-bar h3 {
+      font-size: 2.00em;
+      padding: 3% 0%; } }
+#battle-view #fight-bar .button {
+  margin-bottom: 2%; }
+  #battle-view #fight-bar .button:last-child {
+    margin-bottom: 0%; }
+
+#battle-results #player-panel .winner-banner {
+  height: auto;
+  width: 100%;
+  display: block; }
+  #battle-results #player-panel .winner-banner img {
+    height: auto;
+    width: 100%;
+    display: block; }
+#battle-results #player-panel .player-tag {
+  height: auto;
+  width: 50%;
+  display: inline-block;
+  padding: 5%;
+  box-sizing: border-box;
+  float: left; }
+  #battle-results #player-panel .player-tag h2 {
+    font-size: 1.25em;
+    color: #ffffff;
+    text-align: center;
+    margin: 0%; }
+  @media screen and (min-width: 768px) {
+    #battle-results #player-panel .player-tag {
+      font-size: 1.75em; } }
+#battle-results #fight-bar .button {
+  margin-bottom: 2%; }
+  #battle-results #fight-bar .button:last-child {
+    margin-bottom: 0%; }
+#battle-results #battle-log {
+  height: auto;
+  width: 100%;
+  padding: 5%;
+  box-sizing: border-box; }
+  #battle-results #battle-log h2 {
+    font-size: 2.00em;
+    color: #0a122a;
+    text-align: center;
+    margin-bottom: 5%; }
+    @media screen and (min-width: 700px) {
+      #battle-results #battle-log h2 {
+        font-size: 3.00em; } }
+  #battle-results #battle-log #battle-details {
+    height: auto;
+    width: 100%;
+    display: block;
+    list-style: none; }
+    #battle-results #battle-log #battle-details li {
+      height: auto;
+      width: 100%;
+      display: block;
+      background-color: #3a405a;
+      border: 1px solid #0a122a;
+      padding: 2%;
+      box-sizing: border-box;
+      margin-bottom: 2%; }
+      #battle-results #battle-log #battle-details li:last-child {
+        background-color: #ed1b24;
+        border: 1px solid #be161d;
+        font-size: 2.00em; }
+      #battle-results #battle-log #battle-details li img {
+        height: auto;
+        width: 15%;
+        display: inline-block;
+        float: left; }
+      #battle-results #battle-log #battle-details li i {
+        font-size: 2.00em;
+        color: #be161d;
+        float: left; }
+      #battle-results #battle-log #battle-details li h5 {
+        height: auto;
+        width: 85%;
+        display: inline-block;
+        float: left;
+        padding: 0% 4%;
+        box-sizing: border-box;
+        font-family: Roboto, Helvetica, Arial, sans-serif;
+        font-size: 0.80em;
+        font-weight: 300;
+        line-height: 1.20;
+        color: #ffffff;
+        letter-spacing: normal;
+        margin-bottom: 0%; }
+      @media screen and (min-width: 700px) {
+        #battle-results #battle-log #battle-details li h5 {
+          font-size: 1.00em; } }
+
+/*# sourceMappingURL=style.css.map */

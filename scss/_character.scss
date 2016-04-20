@@ -1,0 +1,123 @@
+// MARVEL BATTLE APP
+// CHARACTER DETAIL STYLES
+
+#character-detail {
+	#character-info {
+		height: auto;
+		width: 100%;
+		display: block;
+		background-image: url("../img/characters/ironman-landscape.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		padding: 5%;
+		padding-top: 25%;
+		box-sizing: border-box;
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {
+			padding-top: 18%;
+		}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+
+		#character-description {
+			height: auto;
+			padding: 5%;
+			box-sizing: border-box;
+			background-color: rgba(255,255,255,0.80);
+
+			h1 {
+				font-size: 2.50em;
+				margin-bottom: 5%;
+				color: $marvel-navy;
+			} // END H1
+
+			.button {
+				height: auto;
+				width: 50%;
+				margin: 0%;
+				margin-bottom: 10%;	
+			} // END BUTTON
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {
+				p {
+					font-size: 0.80em;
+				} // END P
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END CHARACTER-DESCRIPTION
+
+		#character-summary {
+			height: auto;
+			padding: 5%;
+			box-sizing: border-box;
+			background-color: $marvel-red;
+
+			.ultimate-score {
+				h1 {
+					font-size: 2.50em;
+					color: #ffffff;
+					margin-bottom: 0%;
+					text-align: center;
+				} // END H1
+
+				h4 {
+					font-size: 1.50em;
+					color: #ffffff;
+					margin-bottom: 0%;
+					text-align: center;
+				} // END H4
+			} // END ULTIMATE-SCORE
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {
+				padding: 2%;
+			}
+			@media screen and (min-width: 768px) {
+				width: 66.66%;
+			}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END CHARACTER-SUMMARY
+	} // END CHARACTER-INFO
+
+	#character-list {
+		height: auto;
+		display: block;
+
+		h1 {
+			text-align: center;
+		} // END H1
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END CHARACTER-LIST
+} // END CHARACTER-DETAIL

@@ -1,0 +1,359 @@
+// MARVEL BATTLE APP
+// DASHBOARD PAGE STYLES
+
+#dashboard {
+	#home-banner {
+		height: auto;
+		width: 100%;
+		display: block;
+		background-image: url("../img/banners/home-banner.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
+		padding: 10%;
+		padding-top: 25%;
+		box-sizing: border-box;
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {}
+		@media screen and (min-width: 700px) {
+			padding-top: 20%;
+		}
+		@media screen and (min-width: 768px) {}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+
+		.banner-wrapper {
+			h2 {
+				text-align: center;
+				color: #ffffff;
+			}
+			p {
+				text-align: center;
+				color: #ffffff;
+			}
+			.button {}
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {
+				width: 66.66%;
+				margin: 0% auto;
+			}
+			@media screen and (min-width: 700px) {
+				h2 {
+					font-size: 1.75em;
+				}
+				p {
+					font-size: 0.90em;
+				}
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {
+				h2 {
+					font-size: 2.50em;
+				}
+				p {
+					font-size: 1.00em;
+				}
+				.button {
+					font-size: 1.25em;
+				}
+			}
+			@media screen and (min-width: 1200px) {
+				h2 {
+					font-size: 3.50em;
+				}
+				p {
+					font-size: 1.50em;
+				}
+				.button {
+					font-size: 1.50em;
+				}
+			}
+			@media screen and (min-width: 1440px) {}
+		} // END BANNER-WRAPPER
+	} // END HOME-BANNER
+
+	.text-banner {
+		h1 {
+			color: #ffffff;
+			margin-bottom: 0%;
+
+			&:first-child {
+				font-size: 1.25em;
+			} // END FIRST-CHILD
+
+			&:last-child {
+				font-size: 3.00em;
+			} // END LAST-CHILD
+		}
+
+		@media screen and (min-width: 320px) {}
+		@media screen and (min-width: 375px) {}
+		@media screen and (min-width: 425px) {}
+		@media screen and (min-width: 500px) {
+			padding: 2%;
+		}
+		@media screen and (min-width: 700px) {}
+		@media screen and (min-width: 768px) {
+			h1 {
+				&:first-child {
+					font-size: 2.50em;
+				} // END FIRST-CHILD
+				&:last-child {
+					font-size: 5.00em;
+				} // END LAST-CHILD
+			} // END H1
+		}
+		@media screen and (min-width: 900px) {}
+		@media screen and (min-width: 1024px) {}
+		@media screen and (min-width: 1200px) {}
+		@media screen and (min-width: 1440px) {}
+	} // END TEXT-BANNER
+
+	#character-list {
+		height: auto;
+		width: 100%;
+		display: block;
+		padding: 0%;
+
+		.character-cards {
+			height: auto;
+			width: 100%;
+			list-style: none;
+			margin-bottom: 0%;
+
+			li {
+				display: block;
+			}
+			a, img {
+				height: auto;
+				width: 100%;
+				display: block;
+			}
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {
+				li {
+					width: 33.33%;
+					display: inline-block;
+					float: left;
+				}
+			}
+			@media screen and (min-width: 700px) {}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END CHARACTER-CARDS
+
+		.text-banner {
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {
+				padding: 3%;
+				box-sizing: border-box;
+			}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		} // END TEXT-BANNER
+
+		.button {
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {
+				width: 80%;
+				margin: 0% auto;
+				padding: 2%;
+			}
+			@media screen and (min-width: 700px) {
+				padding: 1%;
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {
+				width: 66.66%;
+			}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+		}
+	} // END CHARACTER-LIST
+
+	#user-history {
+		background-color: $marvel-blue;
+
+		#recent-battles {
+			height: auto;
+			width: 100%;
+			display: block;
+			margin: 0% auto;
+			padding-bottom: 5%;
+			border-top: 1px solid #ffffff;
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {
+				width: 50%;
+				display: inline-block;
+				float: left;
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+
+			.battle-row {
+				height: auto;
+				width: 90%;
+				display: block;
+				margin: 0% auto;
+				list-style: none;
+
+				li {
+					height: auto;
+					width: 50%;
+					display: inline-block;
+					margin-bottom: 4%;
+					float: left;
+				}
+
+				a, img {
+					height: auto;
+					width: 100%;
+					display: block;
+				}
+
+				.winner1 {
+					border: 1px solid $marvel-red;
+					box-sizing: border-box;
+				}
+			} // END BATTLE-ROW
+		} // END RECENT-BATTLES
+
+		#recent-searches {
+			height: auto;
+			width: 100%;
+			display: block;
+			margin: 0% auto;
+			padding-bottom: 5%;
+			box-sizing: border-box;
+			border-top: 1px solid #ffffff;
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {
+				width: 50%;
+				display: inline-block;
+				float: left;
+			}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {}
+			@media screen and (min-width: 1200px) {}
+			@media screen and (min-width: 1440px) {}
+
+			.character-cards {
+				width: 90%;
+				margin: 0% auto;
+				display: block;
+
+				@media screen and (min-width: 320px) {}
+				@media screen and (min-width: 375px) {}
+				@media screen and (min-width: 425px) {}
+				@media screen and (min-width: 500px) {}
+				@media screen and (min-width: 700px) {
+					padding-top: 2%;
+				}
+				@media screen and (min-width: 768px) {}
+				@media screen and (min-width: 900px) {}
+				@media screen and (min-width: 1024px) {
+					padding-top: 8%;
+				}
+				@media screen and (min-width: 1200px) {}
+				@media screen and (min-width: 1440px) {}
+			}
+
+			li {
+				height: auto;
+				width: 50%;
+				display: inline-block;
+				float: left;
+			}
+			a, img {
+				height: auto;
+				width: 100%;
+				display: block;
+			}
+		} // END RECENT-SEARCHES
+
+		.section-header {
+			height: auto;
+			width: 100%;
+			display: block;
+			background-color: $marvel-blue;
+			padding: 4%;
+			box-sizing: border-box;
+
+			h1 {
+				font-size: 2.00em;
+				color: #ffffff;
+				text-align: center;
+				margin: 0%;
+			}
+
+			p {
+				height: auto;
+				width: 50%;
+				display: inline-block;
+				float: left;
+				font-size: 0.90em;
+				color: #ffffff;
+				text-align: center;
+				margin: 0%;
+			}
+
+			@media screen and (min-width: 320px) {}
+			@media screen and (min-width: 375px) {}
+			@media screen and (min-width: 425px) {}
+			@media screen and (min-width: 500px) {}
+			@media screen and (min-width: 700px) {}
+			@media screen and (min-width: 768px) {}
+			@media screen and (min-width: 900px) {}
+			@media screen and (min-width: 1024px) {
+				p {
+					margin: 4% 0%;
+				}
+			}
+			@media screen and (min-width: 1200px) {
+				h1 {
+					font-size: 3.00em;
+				}
+				p {
+					font-size: 1.50em;
+				}
+			}
+			@media screen and (min-width: 1440px) {}
+		} // END SECTION-HEADER
+	} // END USER-HISTORY
+} // END DASHBOARD
