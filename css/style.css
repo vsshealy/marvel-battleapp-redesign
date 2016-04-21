@@ -262,6 +262,9 @@ input[type="submit"] {
   @media screen and (min-width: 768px) {
     #header-primary {
       padding: 1%; } }
+  @media screen and (min-width: 1024px) {
+    #header-primary {
+      padding: 0.5%; } }
   #header-primary #header-logo {
     height: auto;
     width: 25%;
